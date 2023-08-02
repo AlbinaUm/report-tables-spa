@@ -11,3 +11,12 @@ body {
     padding: 0 15px;
     margin: 20px auto;
 }
+
+select {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    appearance: none;
+    background: #e8e8e8 url("../public/arrow-ic.png") calc(100% - 8px) center no-repeat;
+    background-size: 8%;
+}
