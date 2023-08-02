@@ -10,4 +10,4 @@ interface IReportHeader {
     align?: "left" | "right" | "center";
 }
 
-type IReportBody = (string | number | {d: string | number, color: string | number})[];
+type IReportBody = (string | number | boolean |  {d: string | number, color: string | number})[];

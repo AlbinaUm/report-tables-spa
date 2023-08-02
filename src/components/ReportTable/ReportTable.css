@@ -1,0 +1,35 @@
+.reportTableWrap {
+    overflow-x: auto;
+}
+
+.reportTable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 40px auto;
+    width: 100%;
+}
+
+.reportTable thead{
+    background: #7e4f7e;
+    color: white;
+}
+
+.reportTable thead th {
+    font-weight: 500;
+}
+
+.reportTable td, th {
+    border: 1px solid #cccc;
+    padding: 10px;
+}
+
+.reportTable tbody tr:nth-child(even) {
+    background: rgb(233 200 233 / 73%);
+}
+
+.reportTableWrap tbody tr:hover {
+    background: #7e4f7e;
+    color: white;
+    border: 2px solid gold;
+    padding: 8px;
+}

@@ -28,6 +28,7 @@ export const reportSecond: IReportData = {
         ["Mimesis", 1024.3, "commercial", 2048.2, 4096.0],
         ["Mako", 2345.1, "internal", 3465.3, {d: 16.5, color: "selected"}],
         ["Edelweiss", 54.4, "commercial", 564.8, 4652.3],
-        ["Edelweiss", 54.456, "commercial", 564.8, 4652.3],
+        ["Edelweiss_1", 54.456, "commercial", 564.8, 4652.3],
+        ["Edelweiss_2", 54.456, "commercial", 8000, 4652.3],
     ]
 }
