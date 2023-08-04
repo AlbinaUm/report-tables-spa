@@ -24,9 +24,8 @@ const ReportTable: React.FC<Props> = ({report}) => {
         }
     };
 
-    const showBool = (row: boolean): string => {
+    const booleanToString = (row: boolean): string => {
         if (row) return 'Sent'
-
         return 'Not Sent'
     };
 
@@ -45,9 +44,12 @@ const ReportTable: React.FC<Props> = ({report}) => {
                         {rows.map((row, index) =>
                             <tr key={index}>
                                 {columns.map((column, i) =>
-                                    <td key={column.id} style={{textAlign: column.align ? column.align : getAlignPosition(column.type)}}>
+                                    <td
+                                        key={column.id}
+                                        style={{textAlign: column.align ? column.align : getAlignPosition(column.type)}}
+                                    >
                                         {typeof row[i] === 'object' ?  Object(row[i]).d :
-                                                typeof row[i] === 'boolean' ? showBool(Boolean(row[i])) : row[i]}
+                                                typeof row[i] === 'boolean' ? booleanToString(Boolean(row[i])) : row[i]}
                                     </td>
                                 )}
                             </tr>

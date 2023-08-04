@@ -1,3 +1,9 @@
+### Implementation of this task through Vue + Quasar
+ - https://github.com/AlbinaUm/report-tables-vue
+
+----
+
+
 ## Start with Docker 
 
 Runs this command in terminal
